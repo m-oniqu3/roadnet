@@ -1,0 +1,11 @@
+.road-image {
+    /*background: url(roadconstruct.jpg) no-repeat center; */
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    background-color: lightslategrey;
+  }
+
+.nav-link {
+    font-size: 20px;
+}
