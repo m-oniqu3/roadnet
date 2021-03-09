@@ -1,11 +1,79 @@
-.road-image {
-    /*background: url(roadconstruct.jpg) no-repeat center; */
-    background-size: cover;
-    height: 750px;
-    position: relative;
-    background-color: lightslategrey;
-  }
+.road-image{
+  width: 100%;
+  /*background-color:rgba(156, 248, 156, 0.342);*/
+  background-image:url("images (1).jpg");
+  position: relative;
+  background-size: cover;
+  
+  
+}
 
-.nav-link {
-    font-size: 20px;
+.custom-shape-divider-bottom-1615074172 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1615074172 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1615074172 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+body {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+}
+.nav-item {
+    font-size: 18px;
+    
+}
+
+.i {
+  /* perspective function in transform property */
+  transform: perspective(75em) rotateY(-20deg);
+  position: absolute;
+ 
+  
+}
+
+.p  {
+  transform:
+    perspective(75em)
+    rotateX(18deg);
+ 
+}
+/*
+position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+*/
+.left{
+  flex:2.5;  
+  
+
+  text-align: center;
+}
+
+.right{
+  flex: 1.5;
+  animation-duration: 3s;
+  text-align: center;
+    
+}
+
+.left p {
+  margin: 0em;
 }
